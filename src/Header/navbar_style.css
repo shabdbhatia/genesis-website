@@ -2,6 +2,28 @@
     background-color: #000000;
     height: 80px;
 }
+
+#navbar_div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+#left_div_navbar{
+    display: flex;
+    flex-direction: row;
+}
 #nav_heading{
     text-align: center;
+    padding: 0px 20px;
+}
+
+#right_div_navbar{
+    display: flex;
+    flex-direction: row;
+}
+.navbar_link{
+    padding: 0px 20px;
 }
