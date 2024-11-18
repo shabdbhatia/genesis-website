@@ -1,7 +1,11 @@
-/*@font-face {*/
-/*  font-family: Montserrat-SemiBold;*/
-/*  src: url(./Resources/Fonts/Montserrat-SemiBold.ttf);*/
-/*}*/
+@font-face {
+  font-family: Garet-Font;
+  src: url('./Assets/Fonts/Garet-Heavy.ttf');
+}
+@font-face {
+  font-family: Alice-Regular;
+  src: url('./Assets/Fonts/Alice-Regular.ttf');
+}
 
 *{
   margin: 0;
@@ -20,4 +24,6 @@ a{
 }
 body{
   /*background-color: lightgray;*/
+  background-image: url('./Assets/Backgrounds/Genesis-Bkg.png');
+  background-size: contain;
 }
