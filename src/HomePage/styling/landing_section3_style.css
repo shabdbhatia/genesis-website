@@ -1,0 +1,61 @@
+#team_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+#s3_heading{
+    font-family: Garet-Font;
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#team_carousel_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+
+    padding: 1rem 1rem;
+
+    background: #DDCCE6;
+    border-radius: 1.5rem;
+    height: 60vh;
+}
+.member-image{
+    border-radius: 50%;
+    transform: scale(0.75);
+}
+
+#team_info{
+    width: 80%;
+    text-align: center;
+    padding: 2.5rem 0rem 0rem 0rem;
+}
+#team_info h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+#team_info p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+#team_info_text{
+    padding: 2rem 0rem;
+}
+
+.nav-button{
+    text-decoration: none;
+    background-color: transparent;
+
+    transform: scale(2);
+    color: #000000;
+    box-shadow: none;
+    border: none;
+}

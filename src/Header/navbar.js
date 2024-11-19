@@ -18,7 +18,7 @@ function NavigationBar() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="#home" className={"navbar-links"}>Home</Nav.Link>
-                        <Nav.Link href="#about" className={"navbar-links"}>About</Nav.Link>
+                        <Nav.Link href="#about" className={"navbar-links"}>Events</Nav.Link>
                         <Nav.Link href="#services" className={"navbar-links"}>Schedule</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
