@@ -31,6 +31,7 @@
     padding: 0rem;
 
     background: none;
+    border: none;
 }
 #schedule_list{
     display: flex;
@@ -45,6 +46,7 @@
 
     background: none;
     border-radius: 2rem;
+
 }
 .schedule_item{
     text-decoration: none;
@@ -79,4 +81,16 @@
     font-family: Garet-Heavy;
     font-size: 1.15rem;
     text-align: center;
+}
+
+
+@media (min-aspect-ratio: 0.6) {
+    .schedule_item {
+        height: 15vh;
+    }
+}
+@media(min-aspect-ratio: 1){
+    .schedule_item{
+        width: 80%;
+    }
 }

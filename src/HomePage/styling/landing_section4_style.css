@@ -1,11 +1,13 @@
 #team_div{
+
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    width: 100%;
-    margin: 2rem 0rem 1rem 0rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 
 }
 #s4_heading{
@@ -65,4 +67,10 @@
 }
 .nav-button:hover{
     transform: scale(2.3);
+}
+
+@media(min-aspect-ratio: 1){
+    #team_carousel_div{
+        width: 80%;
+    }
 }

@@ -7,15 +7,26 @@
     position: sticky;
     top: 0;
     z-index: 1000; /* Ensure it stays above other content */
-    background:none;
     background-color: #B8C4A5;
-    transition: background-color 0.3s ease; /* Smooth transition for background changes */
+    transition: background-color 0.3s ease;
+
+    display: flex;/* Smooth transition for background changes */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0;
 }
+
 .navbar-links{
     color: #ffffff;
     font-family: Alice-Regular;
     font-size: 1.25rem;
     font-weight: bold;
+    padding: 0rem 1rem 0rem 1rem;
+}
+.navbar-links:hover{
+    cursor: pointer;
 }
 
 #genesis_logo{
