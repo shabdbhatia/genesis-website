@@ -15,10 +15,10 @@
     align-items: center;
 }
 .genesis_heading_h1{
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: Garet-Font;
 
-    padding: 1rem 0rem 1rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
 }
 .genesis_heading_h2{
     font-size: 1.75rem;
@@ -36,12 +36,13 @@
     height: 3.75rem;
     width: 15rem;
     font-size: 1.5rem;
-    background-color: #dbc7df;
-    color: #000000;
+    background-color: #f62929;
+    color: #ffffff;
 
     text-decoration: none;
     border: none;
     border-radius: 1.5rem;
+    font-weight: 750;
 }
 
 @media (min-aspect-ratio: 1.4){
