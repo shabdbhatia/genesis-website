@@ -52,10 +52,15 @@
 
 .nav-button{
     text-decoration: none;
-    background-color: transparent;
+    background: none;
 
     transform: scale(2);
     color: #000000;
     box-shadow: none;
     border: none;
+    transition: transform 0.3s ease;
+    padding: 0.5rem;
+}
+.nav-button:hover{
+    transform: scale(2.3);
 }
