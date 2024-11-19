@@ -1,0 +1,82 @@
+#schedule_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    padding: 0rem;
+}
+
+
+#schedule_heading{
+    font-family: Garet-Font;
+    font-size: 3.5rem;
+    text-decoration: underline;
+    text-align: center;
+}
+#schedule_subtitle{
+    font-family: Garet-Heavy;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#schedule_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    padding: 0rem;
+
+    background: none;
+}
+#schedule_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 95%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+
+    background: none;
+    border-radius: 2rem;
+}
+.schedule_item{
+    text-decoration: none;
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    background-color: #DDCCE6;
+    margin: 1rem 0rem 1rem 0rem;
+
+    width: 85%;
+    height: 20vh;
+    border-radius: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.schedule_item:hover{
+    transform: scale(1.01);
+}
+
+.schedule_timing{
+    font-family: Garet-Heavy;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.schedule_description{
+    font-family: Garet-Heavy;
+    font-size: 1.15rem;
+    text-align: center;
+}
