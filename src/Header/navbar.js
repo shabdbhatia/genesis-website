@@ -37,7 +37,7 @@ function NavigationBar() {
             expand="md"
             expanded={expanded}
         >
-            <Container>
+            <Container className={"navbar-container"}>
                 <Navbar.Brand>
                     <img src={Genesis_Logo} alt="genesis_logo" className="navbar_logo" id="genesis_logo" />
                 </Navbar.Brand>
@@ -46,7 +46,7 @@ function NavigationBar() {
                     onClick={() => setExpanded(!expanded)} // Toggle the navbar open/close
                 />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
+                    <Nav className="ms-auto">
                         <Link
                             to="landing_s1_div"
                             smooth={true}

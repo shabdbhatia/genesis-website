@@ -3,6 +3,8 @@ import '../styling/landing_section4_style.css';
 import AdityaS from './../../Assets/Logos/Logo_Placeholder.jpeg';
 import AvanthikaK from './../../Assets/Logos/Logo_Placeholder.jpeg';
 import SaanviV from './../../Assets/Logos/Logo_Placeholder.jpeg';
+import HODs from './../../Assets/Logos/Logo_Placeholder.jpeg';
+import EventHeads from './../../Assets/Logos/Logo_Placeholder.jpeg';
 
 
 const members = [
@@ -20,6 +22,21 @@ const members = [
         name: "Saanvi Venugopal",
         description: "Description for Saanvi Venugopal goes here.",
         image: SaanviV,
+    },
+    {
+        name: "HODs",
+        description: "Arav Agarwal - Finance",
+        description2: "Aanika Krishnan - Social Media & Comms",
+        description3: "Ashwanth - Logistics and Security",
+        image: HODs,
+    },
+    {
+        name: "Event Heads",
+        description: "Palak Sadana - Test Tube",
+        description2: "Himaja M & Spurti A - Excellence Expo",
+        description3: "Ruchi Singhal - Root Issue",
+        description4: "Pencilin - Don't know yet",
+        image: EventHeads,
     },
 ];
 const Landing_Section4 = () => {
@@ -52,6 +69,9 @@ const Landing_Section4 = () => {
                     <div className="team-text" id={'team_info_text'}>
                         <h2>{members[currentMember].name}</h2>
                         <p>{members[currentMember].description}</p>
+                        <p>{members[currentMember].description2}</p>
+                        <p>{members[currentMember].description3}</p>
+                        <p>{members[currentMember].description4}</p>
                     </div>
 
                 </div>

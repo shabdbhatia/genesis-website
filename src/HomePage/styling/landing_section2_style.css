@@ -10,7 +10,7 @@
 
 #s2_heading{
     font-family: Garet-Font;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     text-decoration: underline;
 }
 .event_card{
@@ -37,4 +37,10 @@
 
 .event_card:hover{
     transform: scale(1.02);
+}
+
+@media(min-aspect-ratio: 1){
+    .event_card{
+        width: 80%;
+    }
 }
