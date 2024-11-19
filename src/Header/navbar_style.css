@@ -3,7 +3,14 @@
     font-family: Garet-Font;
     font-size: 2rem;
 }
-
+.custom-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays above other content */
+    background:none;
+    background-color: #B8C4A5;
+    transition: background-color 0.3s ease; /* Smooth transition for background changes */
+}
 .navbar-links{
     color: #ffffff;
     font-family: Alice-Regular;

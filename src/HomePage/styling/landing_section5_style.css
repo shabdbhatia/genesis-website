@@ -1,12 +1,16 @@
 #email-address-h3{
     color: #fff;
     font-size: 1.2rem;
+    text-align: center;
 }
 .footer {
     /* background-color: #121212; */
     color: #ffffff;
     padding: 20px;
     text-align: center;
+    width: 100%;
+    margin: 0rem;
+    padding: 0rem;
 }
 .footer-container {
     width: 100%;
@@ -36,7 +40,7 @@
 
 #footer-info-div{
     margin-top: 10px;
-    width: 30%;
+    width: 100%;
 }
 #footer-info-div a {
     color: #ffffff;

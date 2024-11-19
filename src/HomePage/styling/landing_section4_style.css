@@ -5,8 +5,10 @@
     justify-content: center;
 
     width: 100%;
+    margin: 2rem 0rem 1rem 0rem;
+
 }
-#s3_heading{
+#s4_heading{
     font-family: Garet-Font;
     font-size: 3rem;
     text-align: center;
