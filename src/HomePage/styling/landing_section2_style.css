@@ -23,6 +23,7 @@
     background-color: #DDCCE6;
 
     border-radius: 1.5rem;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .event_card h2, p {
@@ -31,4 +32,8 @@
 }
 .event_card h2{
     font-size: 1.75rem;
+}
+
+.event_card:hover{
+    transform: scale(1.02);
 }

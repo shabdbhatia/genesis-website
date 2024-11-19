@@ -1,0 +1,70 @@
+#email-address-h3{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.footer {
+    /* background-color: #121212; */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+.footer-container {
+    width: 100%;
+    padding: 0rem 1rem 0rem 0rem;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#footer-logo-div{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+    width: 30%;
+}
+.social-icon {
+    width: 30px;
+    height: 30px;
+    /* filter: invert(1); Makes the icons white on dark background */
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2); /* Enlarge slightly on hover */
+}
+
+#footer-info-div{
+    margin-top: 10px;
+    width: 30%;
+}
+#footer-info-div a {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+
+#footer-info-div a:hover {
+    border-bottom: 1px solid #ffffff;
+}
+#footer-info-div p {
+    display: none;
+}
+#TISB-Link{
+    text-decoration: none;
+    color: #fff;
+    text-decoration: underline;
+}
+
+#footer-address-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#footer-address-container p {
+    display: none;
+}
+@media (min-width: 768px) {
+
+}

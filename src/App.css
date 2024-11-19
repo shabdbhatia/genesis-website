@@ -22,8 +22,27 @@ a{
   color: white;
   font-weight: bold;
 }
-body{
-  /*background-color: lightgray;*/
-  background-image: url('./Assets/Backgrounds/Genesis-Bkg.png');
+/*body{*/
+/*  !*background-color: lightgray;*!*/
+/*  background-image: url('./Assets/Backgrounds/Genesis-Bkg.png');*/
+/*  background-size: contain;*/
+/*}*/
+
+body {
+  height: 100vh;
+  width: 100%;
+
+  background-image: url("./Assets/Backgrounds/GreenBkg1.png");
   background-size: contain;
+  background-position: center;
+  /*animation: switchBackground 10s ease-in-out infinite;*/
 }
+
+/*@keyframes switchBackground {*/
+/*  0%, 50% {*/
+/*    background-image: url('./Assets/Backgrounds/GreenBkg1.png'); !* Background 1 *!*/
+/*  }*/
+/*  50.01%, 100% {*/
+/*    background-image: url('./Assets/Backgrounds/GreenBkg2.png'); !* Background 2 *!*/
+/*  }*/
+/*}*/
