@@ -6,7 +6,7 @@ const Landing_Section1 = () => {
         <div className={'container'} id={'landing_s1_div'}>
             <div className={'heading_div'} id={'heading_div_s1'}>
                 <h1 className={'genesis_heading_h1'}>Genesis</h1>
-                <h1 className={'genesis_heading_h1'}>2024!</h1>
+                <h1 className={'genesis_heading_h1'}>2024</h1>
 
                 <h2 className={'genesis_heading_h2'} id={'genesis_tagline'}>TISB'S Interschool Biology Competition</h2>
 
