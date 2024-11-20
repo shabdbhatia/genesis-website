@@ -71,7 +71,7 @@
 }
 @media (min-aspect-ratio: 1.5){
     #landing_s1_div{
-        margin-top: 3.5rem;
+        margin-top: 0rem;
     }
     .genesis_heading_h1{
         font-size: 7.5rem;

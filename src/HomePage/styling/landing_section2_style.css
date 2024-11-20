@@ -6,6 +6,8 @@
 
     margin: 2rem 0rem;
     padding: 3rem 0rem 0rem 0rem;
+
+    width: 100%;
 }
 
 #s2_heading{
@@ -33,14 +35,19 @@
 }
 .event_card h2{
     font-size: 1.75rem;
+    font-family: Garet-Heavy;
+    font-weight: 700;
 }
 
 .event_card:hover{
     transform: scale(1.02);
 }
+.event-type{
+    font-weight: 600;
+}
 
 @media(min-aspect-ratio: 1){
     .event_card{
-        width: 80%;
+        width: 75%;
     }
 }
